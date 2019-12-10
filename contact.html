@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <title>Bootstrap-Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <style>
+     
+     <style>
       a {
   color: #777777;
 }
@@ -25,22 +26,32 @@
   .nav {
     margin: 0 auto;
     text-align: center;
+    background-color: #ffffff;
   }
 }
 
 body {
-   background-color: rgb(243, 240, 240);
+   background-image: url('assets/criss-cross.png');
    height: 1000px;
    overflow: auto;
+   color: #777777;
 }
-#pic {
-  width: 300px;
-  height: 300px;
-  float: left;
-}
+
 .divider {
   color: #cccccc;
   padding-top: 5px;
+}
+
+footer {
+            width: 100%;
+            height: 40px;
+            background-color: #777777;
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            text-align: center;
+            border-top: 8px solid #4aaaa5;
+            color: #cccccc;
 }
    </style>
          </head>
@@ -49,21 +60,55 @@ body {
     
                 <div class="container">
                          <!--Navbar here-->
-                    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 70px;">
-    <a class="navbar-brand" href="#"><h1 style="background-color: #4aaaa5; color: #ffffff; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">Rojel Perez Vez</h1></a>
-    <ul class="nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="divider">|</li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="divider">|</li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      
-</body>
+                    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 70px; width: 100%;">
+                                <a class="navbar-brand" href="#" style="padding-top: 0px;"><h1 style="background-color: #4aaaa5; color: #ffffff; height: 70px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">Rojel Perez Vez</h1></a>
+                       <ul class="nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="divider">|</li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="divider">|</li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                                    <br><br><br>
+                </div>
+                    <div class="container" style="background-color: #ffffff; height: auto; width: auto; border:1px solid #cccccc;">
+                                                <!-- Content here -->
+                         <div class="page-header"><h1 style="color: #4aaaa5; font-family: Georgia, 'Times New Roman', Times, serif;">Contact</h1></div>
+
+                      <hr style="color: #cccccc; height:3px; border: #dddddd; background-color: #dddddd;">
+
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Email</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-auto">
+                          <button type="submit" class="btn btn-primary mb-2" style="background-color: #4aaaa5;">Submit</button>
+                        </div>
+                      </form>
+
+
+                      
+                         
+                                      
+                    </div>
+                    <br>
+     <Footer>copyright</Footer>
+      </body>
 
 </html>
