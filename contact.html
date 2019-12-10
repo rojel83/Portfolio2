@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <title>Document</title>
-</head>
-<body>
-     
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bootstrap-Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <style>
+      a {
+  color: #777777;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    flex: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: #4aaaa5;
+  }
+  
+  .nav {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+body {
+   background-color: rgb(243, 240, 240);
+   height: 1000px;
+   overflow: auto;
+}
+#pic {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+.divider {
+  color: #cccccc;
+  padding-top: 5px;
+}
+   </style>
+         </head>
+   
+      <body>
+    
+                <div class="container">
+                         <!--Navbar here-->
+                    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 70px;">
+    <a class="navbar-brand" href="#"><h1 style="background-color: #4aaaa5; color: #ffffff; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">Rojel Perez Vez</h1></a>
+    <ul class="nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="divider">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="divider">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      
 </body>
+
 </html>
