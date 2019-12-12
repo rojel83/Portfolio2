@@ -1,112 +1,136 @@
 <!DOCTYPE html>
- <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Bootstrap-Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-                  <!--I use this css code to change tha layout from bootstrap. I tried to minimize the use of media queries-->
-     <style>
-      a {
-  color: #777777;
-}
+<html>
 
-@media (max-width: 640px) {
-  .navbar {
-    padding: 0;
-  }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bootstrap-Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--I use this css code to change tha layout from bootstrap. I tried to minimize the use of media queries-->
+  <style>
+    a {
+      color: #777777;
+    }
 
-  #pic {
-    width: auto;
-    height: auto;
-  }
-  
-  .navbar-brand {
-    flex: 100%;
-    text-align: center;
-    margin: 0;
-    background-color: #4aaaa5;
-  }
-  
-  .nav {
-    margin: 0 auto;
-    text-align: center;
-    background-color: #ffffff;
-  }
-}
+    @media (max-width: 640px) {
+      .navbar {
+        padding: 0;
+      }
 
-body {
-   background-image: url('assets/criss-cross.png');
-   height: 1000px;
-   overflow: auto;
-}
+      #pic {
+        width: auto;
+        height: auto;
+      }
 
-#pic {
-  width: 400px;
-  height: 400px;
-  float: left;
-}
+      .navbar-brand {
+        flex: 100%;
+        text-align: center;
+        margin: 0;
+        background-color: #4aaaa5;
+      }
 
-.divider {
-  color: #cccccc;
-  padding-top: 5px;
-}
+      .nav {
+        margin: 0 auto;
+        text-align: center;
+        background-color: #ffffff;
+      }
+    }
 
-p {
-  color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    body {
+      background-image: url('assets/criss-cross.png');
+      height: 1000px;
+      overflow: auto;
+    }
 
-   </style>
-         </head>
-   
-      <body>
-    
-                
-                                           <!--Navbar here. I had to add the style/css individually -->
-                  <div class="container">
-                    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 70px; width: 100%;">
-                                <a class="navbar-brand" href="#" style="padding-top: 0px;"><h1 style="background-color: #4aaaa5; color: #ffffff; height: 70px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">Rojel Perez Vez</h1></a>
-                       <ul class="nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="divider">|</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="divider">|</li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                  </div>
-                                                                     <br><br><br>
-                                                                <!-- Container -->
-                    <div class="container" style="background-color: #ffffff; height: auto; width: auto; border:1px solid #cccccc;">
-                                                
-                         <div class="page-header"><h1 style="color: #4aaaa5; font-family: Georgia, 'Times New Roman', Times, serif;">About Me</h1></div>
+    #pic {
+      max-width: 350px;
+     
+      float: left;
+    }
 
-                      <hr style="color: #cccccc; height:3px; border: #dddddd; background-color: #dddddd;">
+    .divider {
+      color: #cccccc;
+      padding-top: 5px;
+    }
 
-                                                         <!--About Me img. used a thumbnail-->
-                      
-                         <div id="pic"><img src="assets/20191125_181410.jpg" alt="..." class="img-thumbnail" style="padding-right: px; padding-bottom: 20px; border-color: #ffffff;"></div>
-                       
-                          <p>Rojel Perez Vez is the President/Co-Founder of Creative Recreation Redesign Inc, a home renovation company founded in March 2010. After 9 years and counting, Rojel has provided clients with craftsmanship work, great customer service and honest pricing no matter how big or small the project has been. While continuing his career in with his company, he is currently working on full-stack web development at Georgia Institute of Technology.</p>
-                          <p>As well as performing his job duties, Rojel has found time to volunteer as a soccer coach at UFA Norcross (United Futbol Academy) and teach children the importance of teamwork, repect and sportmanship since 2015. Rojel was introduced to the Appalachian Trail in 2010 by some friends without knowing what it was, he always tells the story of how he was about to quit the first day, since he was not prepared to carry a 60 lbs backpack on a 40 mile journey, but was able to finish. Since then he has section hiked the Appalachian Trail and hopes to finish one day.</p>
-                          <p>Rojel was born in Mexico, but he has resided in the USA since the age of 16. He loves Mexican cuisine and he's not afraid to spend hours in the kitchen preparing some authentic Mexican dish.</p>
-                          <p>Rojel has many interests, but his passion is his 3 boys: Caleb, 10; Kristofer, 3; Benjamin, 11 months and his wife Christy. Family is everything, whether it be enjoying the holiday season together, or simply watching double features on a rainy Sunday. Rojel feels that he could not succeed in his future career without the love and support of his family.</p>
-                                          
-                    </div>
-                    <br><br><br>
-                                             <!--Sticky footer using a fixed bootom navbar from bootstrap-->
-                       <nav class="navbar fixed-bottom navbar-light bg-light" style="padding: 0px;">
-                          <a class="navbar-brand" href="#" style="background-color: #777777; border-top: 8px solid #4aaaa5; margin: 0px; height: 50px; padding: 0px;  width: 100%;"><p style="color: #cccccc; text-align: center; margin: 0px;">copyright</p></a>
-                       </nav>
-                   
+    p {
+      color: #777777;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
 
-      </body>
+<body>
+
+
+  <!--Navbar here. I had to add the style/css individually -->
+  <nav class="navbar navbar-expand-xxl navbar-light bg-light"
+    style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 80px; width: 100%;">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="padding-top: 0px;">
+        <h1
+          style="background-color: #4aaaa5; color: #ffffff; height: 70px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">
+          Rojel Perez Vez</h1>
+      </a>
+      <ul class="nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="divider">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="divider">|</li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br><br><br>
+  <!-- Container -->
+  <div class="container" style="background-color: #ffffff; height: auto; width: auto; border:1px solid #cccccc; max-width: 960px;">
+
+    <div class="page-header">
+      <h1 style="color: #4aaaa5; font-family: Georgia, 'Times New Roman', Times, serif;">About Me</h1>
+    </div>
+
+    <hr style="color: #cccccc; height:3px; border: #dddddd; background-color: #dddddd;">
+
+    <!--About Me img. used a thumbnail-->
+
+    <div id="pic"><img src="assets/20191125_181410.jpg" alt="..." class="img-thumbnail"
+        style="padding-left: 0px; padding-right: 20px; padding-bottom: 20px; border-color: #ffffff;"></div>
+
+    <p>Rojel Perez Vez is the President/Co-Founder of Creative Recreation Redesign Inc, a home renovation company
+      founded in March 2010. After 9 years and counting, Rojel has provided clients with craftsmanship work, great
+      customer service and honest pricing no matter how big or small the project has been. While continuing his career
+      in with his company, he is currently working on full-stack web development at Georgia Institute of Technology.</p>
+    <p>As well as performing his job duties, Rojel has found time to volunteer as a soccer coach at UFA Norcross (United
+      Futbol Academy) and teach children the importance of teamwork, repect and sportmanship since 2015. Rojel was
+      introduced to the Appalachian Trail in 2010 by some friends without knowing what it was, he always tells the story
+      of how he was about to quit the first day, since he was not prepared to carry a 60 lbs backpack on a 40 mile
+      journey, but was able to finish. Since then he has section hiked the Appalachian Trail and hopes to finish one
+      day.</p>
+    <p>Rojel was born in Mexico, but he has resided in the USA since the age of 16. He loves Mexican cuisine and he's
+      not afraid to spend hours in the kitchen preparing some authentic Mexican dish.</p>
+    <p>Rojel has many interests, but his passion is his 3 boys: Caleb, 10; Kristofer, 3; Benjamin, 11 months and his
+      wife Christy. Family is everything, whether it be enjoying the holiday season together, or simply watching double
+      features on a rainy Sunday. Rojel feels that he could not succeed in his future career without the love and
+      support of his family.</p>
+
+  </div>
+  <br><br><br>
+  <!--Sticky footer using a fixed bootom navbar from bootstrap-->
+  <nav class="navbar fixed-bottom navbar-light bg-light" style="padding: 0px;">
+    <a class="navbar-brand" href="#"
+      style="background-color: #777777; border-top: 8px solid #4aaaa5; margin: 0px; height: 50px; padding: 0px;  width: 100%;">
+      <p style="color: #cccccc; text-align: center; margin: 0px;">copyright</p>
+    </a>
+  </nav>
+
+
+</body>
 
 </html>
