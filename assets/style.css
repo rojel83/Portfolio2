@@ -1,0 +1,74 @@
+                                /* test*/
+                                
+                                a {
+                                    color: #777777;
+                                }
+                                
+                                .navbar-brand {
+                                    padding: 0%;
+                                    margin-left: 80px;
+                                }
+                                
+                                .container-content {
+                                    background-color: #ffffff;
+                                }
+                                
+                                body {
+                                    background-image: url(criss-cross.png);
+                                    height: 1000px;
+                                    overflow: auto;
+                                }
+                                
+                                .nav-name {
+                                    background-color: #4aaaa5;
+                                    color: #ffffff;
+                                    padding: 15PX;
+                                    margin: 0px;
+                                }
+                                
+                                #pic {
+                                    max-width: 400px;
+                                    float: left;
+                                }
+                                
+                                .divider {
+                                    color: #cccccc;
+                                    padding-top: 5px;
+                                }
+                                
+                                p {
+                                    color: #777777;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+                                
+                                hr {
+                                    color: #cccccc;
+                                    height: 3px;
+                                    border: #dddddd;
+                                    background-color: #dddddd;
+                                }
+                                
+                                .page-header {
+                                    color: #4aaaa5;
+                                }
+                                
+                                @media (max-width: 640px) {
+                                    .navbar {
+                                        padding: 0;
+                                    }
+                                    #pic {
+                                        width: auto;
+                                        height: auto;
+                                        margin: 20px;
+                                    }
+                                    .navbar-brand {
+                                        flex: 100%;
+                                        text-align: center;
+                                        margin: 0;
+                                        background-color: #4aaaa5;
+                                    }
+                                    .nav {
+                                        margin: 0 auto;
+                                        background-color: #ffffff;
+                                    }
+                                }
