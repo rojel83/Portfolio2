@@ -1,0 +1,85 @@
+    /*Portfolio.html stylesheet*/
+    
+    a {
+        color: #777777;
+    }
+    
+    .navbar-brand {
+        padding: 0%;
+        margin-left: 80px;
+    }
+    
+    body {
+        background-image: url(criss-cross.png);
+        height: 1000px;
+        overflow: auto;
+    }
+    
+    .nav-name {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 15PX;
+        margin: 0px;
+    }
+    
+    .container-content {
+        background-color: #ffffff;
+    }
+    
+    hr {
+        color: #cccccc;
+        height: 3px;
+        border: #dddddd;
+        background-color: #dddddd;
+    }
+    
+    .divider {
+        color: #cccccc;
+        padding-top: 5px;
+    }
+    
+    h5 {
+        background-color: #4aaaa5;
+        height: 0px;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 30px;
+        padding-top: 5px;
+        width: 200px;
+    }
+    
+    .card-deck {
+        max-width: 300px;
+        width: auto;
+    }
+    
+    #card {
+        margin: 0px;
+    }
+    
+    img {
+        max-width: 200px;
+    }
+    
+    @media (max-width: 640px) {
+        .navbar {
+            padding: 0;
+        }
+        .navbar-brand {
+            flex: 100%;
+            text-align: center;
+            margin: 0;
+            background-color: #4aaaa5;
+        }
+        .nav {
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        img {
+            width: auto;
+            height: auto;
+        }
+        #card {
+            margin: 50px;
+        }
+    }
