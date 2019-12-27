@@ -10,172 +10,107 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--I use this css code to change tha layout from bootstrap. I tried to minimize the use of media queries-->
-    <style>
-    a {
-            color: #777777;
-        }
-        
-        @media (max-width: 640px) {
-            .navbar {
-                padding: 0;
-            }
-            .navbar-brand {
-                flex: 100%;
-                text-align: center;
-                margin: 0;
-                background-color: #4aaaa5;
-            }
-            .nav {
-                margin: 0 auto;
-                text-align: center;
-                background-color: #ffffff;
-            }
-            img {
-                max-width: 500px;
-            }
-            .car
-        }
-        
-        body {
-            background-image: url('assets/criss-cross.png');
-            height: 1000px;
-            overflow: auto;
-        }
-        
-        .divider {
-            color: #cccccc;
-            padding-top: 5px;
-        }
-        
-        .card-body {
-            background-color: #4aaaa5;
-            height: 0px;
-            text-align: center;
-            color: #ffffff;
-            padding-bottom: 30px;
-            padding-top: 5px;
-        }
-        
-        .card-deck {
-            width: 400px;
-            margin-bottom: 20px;
-        }
-    }
-    </style>
-
-
+    <link rel="stylesheet" href="/assets/style2.css">
 </head>
 
 <body>
-
-
-    <!--Navbar area. Added style to try to match the  project without an external css/style/sheet.  -->
-    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; height: 70px; width: 100%;">
-        <div class="container">
-            <a class="navbar-brand" href="#" style="padding-top: 0px;">
-                <h1 style="background-color: #4aaaa5; color: #ffffff; height: 70px; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif;">
-                    Rojel Perez Vez</h1>
-            </a>
-            <ul class="nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="divider">|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="divider">|</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-xxl navbar-light bg-light" style="padding-top: 0px; padding-bottom: 0px; padding-left: 0px; background-color: #ffffff;">
+        <a class="navbar-brand" href="#">
+            <h1 class="nav-name">Rojel Perez Vez</h1>
+        </a>
+        <ul class="nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="divider">|</li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="divider">|</li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </nav>
 
     <br><br><br>
     <!-- this container is for the portfolio images -->
     <div class="container">
-        <div class="row row-cols-5">
-            <div class="col">
-                <div class="container" style="background-color: #ffffff; height: auto; width: 400px; border:1px solid #cccccc; max-width: 960px;">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8" style="width: fit-content;">
+                <div class="container-content" style="padding: 20px;">
 
                     <div class="page-header">
-                        <h1 style="color: #4aaaa5; font-family: Georgia, 'Times New Roman', Times, serif;">Portfolio</h1>
+                        <h1 style="color: #4aaaa5;">Portfolio</h1>
                     </div>
 
-                    <hr style="color: #cccccc; height:3px; border: #dddddd; background-color: #dddddd;">
-                    <br><br>
+                    <hr>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
 
-
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/oscars.gif" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="container-card-body">
+                                <img src="assets/oscars.gif">
                                 <h5 class="card-title">Tradition</h5>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <img src="assets/snow.gif" class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="col-xxs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
+                            <div class="container-car-body">
+                                <img src="assets/snow.gif">
                                 <h5 class="card-title">Snow</h5>
                             </div>
                         </div>
                     </div>
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/soccer.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
+                            <div class="container-car-body">
+                                <img src="assets/soccer.jpg">
                                 <h5 class="card-title">Volunteering</h5>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="assets/silly.gif" class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="col-xxs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
+                            <div class="container-card-body">
+                                <img src="assets/silly.gif">
                                 <h5 class="card-title">Silly</h5>
                             </div>
                         </div>
                     </div>
-
-
-
-                    <div class="card-deck">
-                        <div class="card">
-                            <img src="assets/projects.gif" class="card-img-top" alt="...">
-                            <div class="card-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
+                            <div class="container-car-body">
+                                <img src="assets/projects.gif"> >
                                 <h5 class="card-title">Projects</h5>
                             </div>
                         </div>
-
-                        <div class="card" style="border: #ffffff;">
-                            <!--black area to keep the image above the same size-->
+                        <div class="col-xxs-12 col-sm-10 col-md-5 col-lg-5 col-xl-5" id="card">
                         </div>
+
+
+
+
+
+
+
 
 
 
                     </div>
-
-
-
                 </div>
+
             </div>
-
         </div>
-    </div>
 
 
-    <br><br><br>
+        <br><br><br>
 
 
-    <!--Sticky footer using a fixed bootom navbar from bootstrap-->
-    <nav class="navbar fixed-bottom navbar-light bg-light" style="padding: 0px;">
-        <a class="navbar-brand" href="#" style="background-color: #777777; border-top: 8px solid #4aaaa5; margin: 0px; height: 50px; padding: 0px;  width: 100%;">
-            <p style="color: #cccccc; text-align: center; margin: 0px;">copyright</p>
-        </a>
-    </nav>
+        <!--Sticky footer using a fixed bootom navbar from bootstrap-->
+        <nav class="navbar fixed-bottom navbar-light bg-light" style="padding: 0px;">
+            <a class="navbar-brand" href="#" style="background-color: #777777; border-top: 8px solid #4aaaa5; margin: 0px; height: 50px; padding: 0px;  width: 100%;">
+                <p style="color: #cccccc; text-align: center; margin: 0px;">copyright</p>
+            </a>
+        </nav>
 
 </body>
 
