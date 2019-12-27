@@ -80,6 +80,10 @@
             height: auto;
         }
         #card {
-            margin: 50px;
+            margin: opx;
+        }
+        .container-card-body {
+            float: right;
+            margin-right: 50px;
         }
     }
