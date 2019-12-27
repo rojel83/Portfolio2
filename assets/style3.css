@@ -1,0 +1,57 @@
+    a {
+        color: #777777;
+    }
+    
+    .navbar-brand {
+        padding: 0%;
+        margin-left: 80px;
+    }
+    
+    .divider {
+        color: #cccccc;
+        padding-top: 5px;
+    }
+    
+    .container-content {
+        background-color: #ffffff;
+    }
+    
+    body {
+        background-image: url(criss-cross.png);
+        height: 1000px;
+        overflow: auto;
+    }
+    
+    .nav-name {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        padding: 15PX;
+        margin: 0px;
+    }
+    
+    hr {
+        color: #cccccc;
+        height: 3px;
+        border: #dddddd;
+        background-color: #dddddd;
+    }
+    
+    .page-header {
+        color: #4aaaa5;
+    }
+    
+    @media (max-width: 640px) {
+        .navbar {
+            padding: 0;
+        }
+        .navbar-brand {
+            flex: 100%;
+            text-align: center;
+            margin: 0;
+            background-color: #4aaaa5;
+        }
+        .nav {
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+    }
