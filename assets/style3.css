@@ -14,6 +14,8 @@
     
     .container-content {
         background-color: #ffffff;
+        padding: 30px;
+        color: #777777;
     }
     
     body {
@@ -38,6 +40,11 @@
     
     .page-header {
         color: #4aaaa5;
+    }
+    
+    button {
+        background-color: #4aaaa5;
+        color: #ffffff;
     }
     
     @media (max-width: 640px) {
